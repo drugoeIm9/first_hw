@@ -1,0 +1,341 @@
+@font-face {
+    font-family: MuseoSansCyrl500;
+    src: url(./fonts/MuseoSansCyrl500.otf);
+}
+
+@font-face {
+    font-family: MuseoSansCyrl700;
+    src: url(./fonts/MuseoSansCyrl700.otf);
+}
+
+@font-face {
+    font-family: MuseoSansCyrl300;
+    src: url(./fonts/MuseoSansCyrl300.otf);
+}
+
+.header {
+    height: 89px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_content {
+    justify-content: space-between;
+    padding: 15px 35px;
+    display: flex;
+    align-items: center;
+}
+
+.button_for_exit {
+    background-color: white;
+    border-radius: 9px;
+    border: 1px solid blue;
+    width: 179px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    color: blue;
+}
+
+.main_div {
+    box-sizing: border-box;
+    font-family: MuseoSansCyrl300;
+}
+
+.reg_form_header {
+    grid-gap: 16px;
+    display: grid;
+    gap: 16px;
+}
+
+.text_above_main_container {
+    width: 1040px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: flex-end;
+}
+
+.slash_and_about_myself {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.main_container {
+    max-width: 1040px;
+    padding: 43px 0 160px 0;
+    margin: 0 325px 0 325px;
+    align-items: flex-end;
+    flex-direction: column;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.form_for_registration {
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 60px;
+    box-sizing: border-box;
+}
+
+.left_side_of_form {
+    width: 366px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.div_for_input_blanks {
+    width: 366px;
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.input_style_for_names_and_date {
+    background-color: #f4f4f6;
+    border-radius: 8px;
+    border: none;
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16px 12px;
+    overflow-wrap: normal;
+    width: 366px;
+    box-sizing: border-box;
+}
+
+.avatar_upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed gray;
+    border-radius: 16px;
+    height: 200px;
+    width: 366px;
+}
+
+.button_for_upload_avatar {
+    background-color: blue;
+    font-size: 14px;
+    font-family: MuseoSansCyrl500;
+    color: white;
+    border-radius: 9px;
+    width: 144px;
+    padding: 8px 40px;
+    cursor: pointer;
+    border: none;
+}
+
+.choose_man_or_woman {
+    display: flex;
+    gap: 16px;
+    position: relative;
+}
+
+.for_textarea_about_me {
+    background-color: #f4f4f6;
+    border-color: #f4f4f6;
+    border-radius: 8px;
+    color: #040013;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    min-height: 128px;
+    outline: none;
+    padding: 16px 12px;
+    resize: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.information_panel_about_me {
+    border-radius: 32px;
+    box-shadow: 0 5.84789px 22.1511px rgba(133,94,152,.05), 0 5.84789px 22.1511px rgba(133,94,152,.05), 0 2.86674px 10.8589px rgba(133,94,152,.04), 0 1.13351px 4.29362px rgba(133,94,152,.028);
+    display: flex;
+    gap: 28px;
+    margin-bottom: 24px;
+    padding: 20px;
+    
+}
+
+.avatar_and_show_contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.my_avatar {
+    border: 1px dashed var(--d-9-d-1-e-0-stroke,#cdbddb);
+    border-radius: 16px;
+    height: 140px
+}
+
+.button_show_contacts {
+    background-color: #7953c3;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 8px;
+    height: 22px;
+    padding: 6px 12px;
+    transition: all .2s;
+    width: 140px;
+    border: none;
+}
+
+.for_no_text {
+    background-color: #f4f4f6;
+    border-radius: 6px;
+    width: 80px;
+    height: 11px;
+    margin: 0;
+}
+
+.name_age_gender_and_smt_in_bio {
+    align-items: center;
+    column-gap: 4px;
+    display: flex;
+    justify-content: start;
+    margin-top: 7px;
+}
+
+.some_more_inf_about_me {
+    height: 17px;
+    margin-top: 10px;
+    max-width: 400px;
+    min-width: 80px;
+    padding: 3px 6px;
+}
+
+.my_live_preferences {
+    border-radius: 8px;
+    box-shadow: -8px 8px 0 #7953c3, 0 6px 20px rgba(133,94,152,.06), 0 4px 8px rgba(133,94,152,.08), 0 2px 4px rgba(133,94,152,.08), 0 6px 20px rgba(133,94,152,.08), 0 6px 20px rgba(133,94,152,.08), 0 4px 12px rgba(133,94,152,.06), 0 2px 4px rgba(133,94,152,.06);
+    gap: 8px;
+    margin-top: 20px;
+    padding: 12px 20px 12px 12px;
+    width: 406px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.my_preferences_price {
+    background-color: #eeeef1;
+    border-radius: 6px;
+    margin-top: 4px;
+    min-height: 20px;
+    width: 198px;
+}
+
+.my_preferences_underground {
+    background-color: #eeeef1;
+    border-radius: 4px;
+    margin-top: 2px;
+    min-height: 14px;
+    width: 308px;
+}
+
+.we_know_nothing_about_you {
+    border-radius: 16px;
+    box-shadow: 0 1.1335145235px 4.293615818px 0 rgba(133,94,152,.03), 0 2.8667433262px 10.8588762283px 0 rgba(133,94,152,.04), 0 5.847887516px 22.1510887146px 0 rgba(133,94,152,.05), 0 5.847887516px 22.1510887146px 0 rgba(133,94,152,.05);
+    margin-bottom: 24px;
+    padding: 12px 16px;
+    position: relative;
+}
+.in_we_know_nth_about_you {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_to_main_page {
+    background-color: white;
+    border-radius: 9px;
+    border: 1px solid blue;
+    width: 107px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    cursor: pointer;
+    font-family: MuseoSansCyrl300;
+}
+
+.button_for_continue {
+    background-color: blue;
+    font-size: 16px;
+    font-family: MuseoSansCyrl500;
+    color: white;
+    border-radius: 9px;
+    width: 226px;
+    padding: 12px 64px;
+    cursor: pointer;
+    border: none;
+}
+
+.footer {
+    border-top: 1px solid blue;
+    border-bottom: 12px solid blue;
+    padding: 127px 325px 64px 325px;
+    font-family: MuseoSansCyrl300;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main_links_in_footer {
+    width: 448.35px;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+}
+
+.line_with_links {
+    justify-content: space-between ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 39px 0 0 0;
+}
+
+.other_links_in_footer {
+    font-size: 16px;
+    width: 448.35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttons_for_vk_and_tg {
+    height: 26px;
+    width: 66px;
+    display: flex;
+    gap: 16px;
+    color: lightgray;
+    justify-content: center;
+}
+
+.button_with_link_tg_or_vk {
+    height: 26px;
+    width: 26px;
+    border: none;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}

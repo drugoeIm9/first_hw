@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body style="margin: 0;">
+    <div class="main_div">
+        <header class="header">
+            <div class="header_content">
+                <img src="img/ykral).svg" alt="">
+                <button class="button_for_exit">Выйти из аккаунта</button>
+            </div>
+        </header>
+        <div class="main_container">
+            <div class="reg_form_header">
+                <button class="button_to_main_page">Ha главную</button>
+                <div class="text_above_main_container">    
+                    <h3 style="font-size: 32px; margin: 0;">Создание профиля</h3>
+                    <div class="slash_and_about_myself">
+                        <p style="margin: 0;">/</p>
+                        <p style="margin: 0;">O6paзoвaниe</p>
+                    </div>
+                </div>
+                <div style="border: 1px solid lightgray;"></div>
+            </div>
+            <div class="form_for_registration">
+                <form class="left_side_of_form">
+                    <div style="padding-left: 4px; position: relative;">
+                        <div class="choose_studer_or_employee">
+                            <div style="display: flex; gap: 8px; align-items: center;">
+                                <input name="role" id="student" type="radio" value="student">
+                                <label for="student">Студент / Выпускник</label>
+                            </div>
+                            <div style="display: flex; gap: 8px; align-items: center;">
+                                <input name="role" id="employee" type="radio" value="employee">
+                                <label for="employee">Сотрудник</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 4px; flex-direction: column;">
+                        <div class="block_select_course_text_above">Kypc</div>
+                        <div class="block_select_course_choose">
+                            <button class="button_in_block_select_course_choose">1</button>
+                            <button class="button_in_block_select_course_choose">2</button>
+                            <button class="button_in_block_select_course_choose">3</button>
+                            <button class="button_in_block_select_course_choose">4</button>
+                            <button class="button_in_block_select_course_choose">5</button>
+                            <button class="button_in_block_select_course_choose" style="background-color: #7953C3; color: white">6</button>
+                        </div>
+                        <div>
+                            <label style="font-size: 12px;">
+                                <input type="checkbox" style="display: none;">
+                                <div class="div_for_checkbox">
+                                    <img src="./img/mark_icon.svg" alt="">
+                                </div>
+                                <p style="display: inline;">Уже окончил Вышку</p>
+                            </label>
+                        </div>
+                    </div>
+                    <div style="gap: 8px; display: flex; flex-direction: column;">
+                        <label for="education_level">Ступень образования</label>
+                        <select name="education_level" id="education_level" class="select_element">
+                            <option value="" disabled selected style="color: gray;">Ступень образования</option>
+                        </select>
+                    </div>
+                    <div style="gap: 8px; display: flex; flex-direction: column;">
+                        <label for="department">Факультет</label>
+                        <select name="department" id="department" class="select_element">
+                            <option value="" disabled selected style="color: gray;">Факультет</option>
+                        </select>
+                    </div>
+                    <div style="gap: 8px; display: flex; flex-direction: column;">
+                        <label for="education_program">Образовательная программа</label>
+                        <input type="text" id="education_program" class="input_style_for_work_and_education_field" placeholder="Образовательная программа">
+                    </div>
+                    <div>
+                        <input type="text" class="input_style_for_work_and_education_field" placeholder="Работа">
+                    </div>
+                </form>
+                <div>
+                    <p style="margin-bottom: 16px; padding-left: 16px; color: gray;">Так будет выглядеть твоя будущая страница</p>
+                    <div class="information_panel_about_me">
+                        <div class="avatar_and_show_contacts">
+                            <div class="my_avatar"></div>
+                            <button disabled class="button_show_contacts" style="opacity: 0.2;"><b>Показать контакты</b></button>
+                        </div>
+                        <div>
+                            <p class="for_no_text" style="height: 24px; width: 240px;"></p>
+                            <div class="name_age_gender_and_smt_in_bio">
+                                <p class="for_no_text"></p>
+                                <div style="background: #7953c3; border-radius: 100px; height: 4px; opacity: .3; width: 4px"></div>
+                                <p class="for_no_text"></p>
+                                <div style="background: #7953c3; border-radius: 100px; height: 4px; opacity: .3; width: 4px"></div>
+                                <p class="for_no_text"></p>
+                            </div>
+                            <div class="some_more_inf_about_me" style="margin-left: -6px;">
+                                <p class="for_no_text"></p>
+                            </div>
+                            <div style="background-color: #f4f4f6; border-radius: 6px; height: 11px; margin-top: 10px; width: 332px;"></div>
+                            <div class="my_live_preferences">
+                                <p style="font-size: 12px; color: gray;">Предпочтения по жилью</p>
+                                <div class="my_preferences_price"></div>
+                                <div style="display: flex; gap: 7px; flex-wrap: wrap; margin-top: 4px; margin-left: -6px;"><div class="ProfileCard_preferences__underground__zXysS"></div>
+                                    <div class="my_preferences_underground"></div>
+                                </div>
+                                <div style="background-color: #ccc; height: 1px; margin-bottom: 8px; margin-top: 8px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="we_know_nothing_about_you">
+                        <div class="in_we_know_nth_about_you">
+                            <div style="margin-top: 4px; line-height: 1.5;">
+                                <p style="font-size: 16px; margin: 0;"><b>Мы совсем ничего про тебя не знаем</b></p>
+                                <p style="font-size: 14px; color: #5d5b66; margin: 0;">Расскажи o ce6e.</p>
+                                <p style="font-size: 14px; color: #5d5b66; margin: 0;">Люди пишут тем, кому доверяют. Тем более при поиске соседа</p>
+                            </div>
+                            <img src="./img/sad_icon.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="padding: 40px 0 0 0; width: 100%; display: flex; justify-content: flex-end;">
+                <button class="button_for_continue">Продолжить</button>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="main_links_in_footer">
+                <a href="mailto:homeet@styleru.org" style="font-size: 49px;"><b>homeet@styleru.org</b></a>
+                <a href="https://forms.gle/W4yJoxytwHhMq1FT9" style="font-size: 15px; color: gray;">Техническая поддержка</a>
+            </div>
+            <div class="line_with_links">
+                <div class="other_links_in_footer">
+                    <p><b>O сервисе</b></p>
+                    <p><b>Контакты</b></p>
+                    <p><b>Политика конфиденциальности</b></p>
+                </div>
+                <div class="buttons_for_vk_and_tg">
+                    <button class="button_with_link_tg_or_vk"><img src="./img/telegram.svg" alt=""></button>
+                    <button class="button_with_link_tg_or_vk"><img src="./img/vk.svg" alt=""></button>
+                </div>
+            </div>
+            <div style="border: 1px solid blue; opacity: 0.2; margin: 67px 0 67px 0;"></div>
+            <div style="align-items: end; display: flex; justify-content: space-between;">
+                <p>Предложение не является публичной офертой.<br>Сервис не несет ответственности за действия пользователей, достоверность информации и т.д.</p>
+                <p>Сделано в бвср</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
